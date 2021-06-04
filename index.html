@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Deventify</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- <div class="row">
+        <div class="col">
+          <h3>Subscribed:</h3>
+          <div id="subscribed"></div>
+        </div>
+      </div> -->
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="messages">
+  
+        </tbody>
+      </table>
+      </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="./preload.js"></script>
+  </body>
+</html>

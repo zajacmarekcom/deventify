@@ -1,0 +1,22 @@
+{
+  "name": "dev-events",
+  "version": "0.0.1",
+  "description": "Dev Events",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Marek Zając",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.0.1",
+    "electron-rebuild": "^2.3.5"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.1",
+    "jquery": "^3.6.0",
+    "lowdb": "^2.1.0",
+    "stormdb": "^0.4.1",
+    "tributejs": "^5.1.3"
+  }
+}
